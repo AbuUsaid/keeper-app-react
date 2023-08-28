@@ -8,6 +8,7 @@
   }
   body {
     background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     padding: 0 16px;
   }
   
@@ -77,8 +78,8 @@
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }
   
-  form input,
-  form textarea {
+  form.create-note input,
+  form.create-note textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -88,7 +89,7 @@
     resize: none;
   }
 
-  form button {
+  form.create-note button {
     position: absolute;
     right: 18px;
     bottom: -18px;
